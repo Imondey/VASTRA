@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account — VASTRA</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/pages/account.js"></script>
+</head>
+<body>
+  <main id="main">
+    <section class="page-head container">
+      <span class="eyebrow">My account</span>
+      <h1 id="greeting">Welcome</h1>
+    </section>
+    <div class="container account-layout">
+      <nav class="account-nav" aria-label="Account sections">
+        <button type="button" data-tab="orders">Orders</button>
+        <button type="button" data-tab="profile">Profile</button>
+        <button type="button" data-tab="addresses">Addresses</button>
+        <button type="button" data-tab="password">Password</button>
+        <a href="wishlist.html">Wishlist</a>
+        <button type="button" data-logout>Sign out</button>
+      </nav>
+      <section id="tabRoot"><div class="spinner"></div></section>
+    </div>
+  </main>
+</body>
+</html>

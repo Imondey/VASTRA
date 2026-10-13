@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 50 720 900" width="800" height="1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Cable-Knit Cardigan in Sage">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ebe6dd"/><stop offset="1" stop-color="#ddd6ca"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2b2418" flood-opacity=".18"/></filter>
+</defs>
+<rect x="-400" y="-400" width="1600" height="1800" fill="url(#bg)"/>
+<ellipse cx="400" cy="935" rx="300" ry="26" fill="#2b2418" opacity=".08"/>
+<g filter="url(#soft)">
+<path d="M300 200 L500 200 L640 250 L700 660 L630 680 L585 380 L585 860 L215 860 L215 380 L170 680 L100 660 L160 250 Z" fill="#a8b39a" stroke="#79816f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<path d="M300 200 L500 200 L640 250 L700 660 L630 680 L585 380 L585 860 L215 860 L215 380 L170 680 L100 660 L160 250 Z" fill="url(#shade)"/>
+<path d="M215 820 L585 820 L585 860 L215 860 Z" fill="#909a84" stroke="#79816f" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M100 660 L170 680 L177 640 L107 620 Z" fill="#909a84" stroke="#79816f" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M700 660 L630 680 L623 640 L693 620 Z" fill="#909a84" stroke="#79816f" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M320 200 C350 255 450 255 480 200" fill="none" stroke="#727a69" stroke-width="14" stroke-linecap="round" opacity=".75"/>
+<path d="M225 822 L225 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M239 822 L239 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M253 822 L253 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M267 822 L267 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M281 822 L281 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M295 822 L295 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M309 822 L309 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M323 822 L323 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M337 822 L337 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M351 822 L351 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M365 822 L365 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M379 822 L379 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M393 822 L393 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M407 822 L407 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M421 822 L421 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M435 822 L435 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M449 822 L449 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M463 822 L463 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M477 822 L477 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M491 822 L491 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M505 822 L505 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M519 822 L519 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M533 822 L533 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M547 822 L547 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M561 822 L561 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M575 822 L575 858" fill="none" stroke="#727a69" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M400 240 L400 860" fill="none" stroke="#727a69" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+<path d="M290 260 C265 320 315 380 290 440 C265 500 315 560 290 620 C265 680 315 740 290 800" fill="none" stroke="#727a69" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+<path d="M510 260 C485 320 535 380 510 440 C485 500 535 560 510 620 C485 680 535 740 510 800" fill="none" stroke="#727a69" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+<circle cx="412" cy="300" r="6" fill="#e8e2d6" stroke="#79816f" stroke-width="1"/>
+<circle cx="412" cy="400" r="6" fill="#e8e2d6" stroke="#79816f" stroke-width="1"/>
+<circle cx="412" cy="500" r="6" fill="#e8e2d6" stroke="#79816f" stroke-width="1"/>
+<circle cx="412" cy="600" r="6" fill="#e8e2d6" stroke="#79816f" stroke-width="1"/>
+<circle cx="412" cy="700" r="6" fill="#e8e2d6" stroke="#79816f" stroke-width="1"/>
+<text x="70" y="935" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="8" fill="#8a7f6e" opacity=".55">VASTRA</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 110 400 500" width="800" height="1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Tailored Wool Trousers in Charcoal">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe9df"/><stop offset="1" stop-color="#e2d9cb"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2b2418" flood-opacity=".18"/></filter>
+</defs>
+<rect x="-400" y="-400" width="1600" height="1800" fill="url(#bg)"/>
+<ellipse cx="400" cy="935" rx="300" ry="26" fill="#2b2418" opacity=".08"/>
+<g filter="url(#soft)">
+<path d="M280 185 L520 185 L545 870 L420 870 L400 330 L380 870 L255 870 Z" fill="#3a3b40" stroke="#2a2a2e" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<path d="M280 185 L520 185 L545 870 L420 870 L400 330 L380 870 L255 870 Z" fill="url(#shade)"/>
+<path d="M278 150 L522 150 L522 187 L278 187 Z" fill="#323337" stroke="#2a2a2e" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M335 260 L318 860" fill="none" stroke="#65666a" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M465 260 L482 860" fill="none" stroke="#65666a" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M400 187 L400 320" fill="none" stroke="#65666a" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+<path d="M290 195 C310 240 335 255 352 255" fill="none" stroke="#65666a" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+<path d="M510 195 C490 240 465 255 448 255" fill="none" stroke="#65666a" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+</svg>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — VASTRA</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/pages/contact.js"></script>
+</head>
+<body>
+  <main id="main">
+    <section class="page-head container">
+      <span class="eyebrow">Client care</span>
+      <h1>We’re here to help</h1>
+      <p>Questions about sizing, an order, or styling? Our concierge replies within 24 hours.</p>
+    </section>
+    <div class="container split" style="align-items:start;padding-bottom:100px">
+      <form class="panel-card" id="contactForm" novalidate>
+        <div class="alert" data-form-alert hidden></div>
+        <div class="form-grid">
+          <div class="field"><label for="cName">Name</label><input id="cName" name="name" maxlength="120" required autocomplete="name"></div>
+          <div class="field"><label for="cEmail">Email</label><input id="cEmail" name="email" type="email" required autocomplete="email"></div>
+          <div class="field full"><label for="cSubject">Subject</label>
+            <select id="cSubject" name="subject"><option>Order enquiry</option><option>Sizing &amp; fit</option><option>Returns &amp; exchanges</option><option>Styling advice</option><option>Something else</option></select></div>
+          <div class="field full"><label for="cMessage">Message</label><textarea id="cMessage" name="message" maxlength="4000" required></textarea></div>
+        </div>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+      <div>
+        <div class="panel-card">
+          <h3>Concierge</h3>
+          <p class="muted">Monday – Saturday, 10am – 7pm IST</p>
+          <p style="margin-top:12px">care@vastra.example<br>+91 00000 00000</p>
+        </div>
+        <div class="panel-card">
+          <h3>Flagship studio</h3>
+          <p class="muted">Visit by appointment for personal styling.</p>
+          <p style="margin-top:12px">VASTRA Studio<br>Mumbai, Maharashtra, India</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 50 720 900" width="800" height="1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Oxford Button-Down Shirt in White">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ebe6dd"/><stop offset="1" stop-color="#ddd6ca"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2b2418" flood-opacity=".18"/></filter>
+</defs>
+<rect x="-400" y="-400" width="1600" height="1800" fill="url(#bg)"/>
+<ellipse cx="400" cy="935" rx="300" ry="26" fill="#2b2418" opacity=".08"/>
+<g filter="url(#soft)">
+<path d="M320 165 L480 165 L630 225 L700 640 L630 660 L580 360 L580 850 C500 885 300 885 220 850 L220 360 L170 660 L100 640 L170 225 Z" fill="#f4f2ec" stroke="#b0aeaa" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<path d="M320 165 L480 165 L630 225 L700 640 L630 660 L580 360 L580 850 C500 885 300 885 220 850 L220 360 L170 660 L100 640 L170 225 Z" fill="url(#shade)"/>
+<path d="M320 165 C360 150 440 150 480 165 L470 180 C430 168 370 168 330 180 Z" fill="#b5b3af" stroke="#b0aeaa" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M320 165 L400 215 L360 270 L300 185 Z" fill="#d2d0cb" stroke="#b0aeaa" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M480 165 L400 215 L440 270 L500 185 Z" fill="#d2d0cb" stroke="#b0aeaa" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M100 640 L170 660 L177 620 L107 600 Z" fill="#d2d0cb" stroke="#b0aeaa" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M700 640 L630 660 L623 620 L693 600 Z" fill="#d2d0cb" stroke="#b0aeaa" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M400 215 L400 875" fill="none" stroke="#a6a5a0" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+<path d="M450 330 L530 330 L530 420 L490 435 L450 420 Z" fill="none" stroke="#a6a5a0" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+<circle cx="400" cy="290" r="5" fill="#e8e2d6" stroke="#b0aeaa" stroke-width="1"/>
+<circle cx="400" cy="380" r="5" fill="#e8e2d6" stroke="#b0aeaa" stroke-width="1"/>
+<circle cx="400" cy="470" r="5" fill="#e8e2d6" stroke="#b0aeaa" stroke-width="1"/>
+<circle cx="400" cy="560" r="5" fill="#e8e2d6" stroke="#b0aeaa" stroke-width="1"/>
+<circle cx="400" cy="650" r="5" fill="#e8e2d6" stroke="#b0aeaa" stroke-width="1"/>
+<circle cx="400" cy="740" r="5" fill="#e8e2d6" stroke="#b0aeaa" stroke-width="1"/>
+<circle cx="400" cy="830" r="5" fill="#e8e2d6" stroke="#b0aeaa" stroke-width="1"/>
+<text x="70" y="935" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="8" fill="#8a7f6e" opacity=".55">VASTRA</text>
+</svg>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Admin — VASTRA</title>
+  <base href="/">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/pages/admin.js"></script>
+</head>
+<body class="admin-body">
+  <div class="admin-shell">
+    <aside class="admin-side">
+      <a class="logo" href="index.html">VASTRA<small>BACK OFFICE</small></a>
+      <nav id="adminNav" aria-label="Admin sections">
+        <button type="button" data-tab="dashboard" data-icon="chart">Dashboard</button>
+        <button type="button" data-tab="orders" data-icon="box">Orders</button>
+        <button type="button" data-tab="products" data-icon="grid">Products</button>
+        <button type="button" data-tab="customers" data-icon="users">Customers</button>
+        <button type="button" data-tab="coupons" data-icon="tag">Coupons</button>
+        <button type="button" data-tab="messages" data-icon="mail">Messages</button>
+      </nav>
+      <div class="side-foot">
+        <span id="adminWho"></span>
+        <a href="index.html">← View storefront</a>
+        <a href="#" data-admin-logout>Sign out</a>
+      </div>
+    </aside>
+    <main class="admin-main" id="adminMain"><div class="spinner"></div></main>
+  </div>
+  <div id="modalRoot"></div>
+</body>
+</html>

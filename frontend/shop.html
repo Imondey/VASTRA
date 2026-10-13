@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop the VASTRA collection — shirts, dresses, ethnic wear, knitwear and more.">
+  <title>Shop — VASTRA</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/pages/shop.js"></script>
+</head>
+<body>
+  <main id="main">
+    <section class="page-head container">
+      <span class="eyebrow" id="shopEyebrow">The collection</span>
+      <h1 id="shopTitle">Shop All</h1>
+      <p id="shopIntro">Considered pieces from our atelier and the labels we love.</p>
+    </section>
+
+    <div class="container shop-layout">
+      <aside class="filters" id="filters" aria-label="Filters">
+        <div class="filters-head">
+          <h3>Refine</h3>
+          <button class="link" type="button" id="clearFilters">Clear all</button>
+        </div>
+        <div id="filterGroups"><div class="spinner"></div></div>
+        <button class="btn btn-block filters-toggle" type="button" id="applyFilters" style="margin-top:20px">Show results</button>
+      </aside>
+
+      <section aria-label="Products">
+        <div class="shop-toolbar">
+          <button class="btn btn-outline btn-sm filters-toggle" type="button" id="openFilters">Filters</button>
+          <span class="count" id="resultCount" aria-live="polite"></span>
+          <label class="sr-only" for="sortSelect">Sort by</label>
+          <select id="sortSelect">
+            <option value="">Recommended</option>
+            <option value="newest">Newest</option>
+            <option value="popular">Best sellers</option>
+            <option value="price_asc">Price: low to high</option>
+            <option value="price_desc">Price: high to low</option>
+            <option value="rating">Top rated</option>
+            <option value="discount">Biggest discount</option>
+          </select>
+        </div>
+        <div class="active-filters" id="activeFilters"></div>
+        <div class="product-grid cols-3" id="productGrid"></div>
+        <nav class="pagination" id="pagination" aria-label="Pagination"></nav>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 110 400 500" width="800" height="1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Textured Nehru Jacket in Ivory">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e4ddd1"/><stop offset="1" stop-color="#d5ccbd"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2b2418" flood-opacity=".18"/></filter>
+</defs>
+<rect x="-400" y="-400" width="1600" height="1800" fill="url(#bg)"/>
+<ellipse cx="400" cy="935" rx="300" ry="26" fill="#2b2418" opacity=".08"/>
+<g filter="url(#soft)">
+<path d="M330 170 L470 170 L560 230 C540 300 545 360 565 400 L590 880 L210 880 L235 400 C255 360 260 300 240 230 Z" fill="#ece4d3" stroke="#aaa498" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<path d="M330 170 L470 170 L560 230 C540 300 545 360 565 400 L590 880 L210 880 L235 400 C255 360 260 300 240 230 Z" fill="url(#shade)"/>
+<path d="M335 160 C365 148 435 148 465 160 L465 185 C435 172 365 172 335 185 Z" fill="#afa99c" stroke="#aaa498" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M270 600 L350 600 L350 615 L270 615 Z" fill="#cbc4b5" stroke="#aaa498" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M450 600 L530 600 L530 615 L450 615 Z" fill="#cbc4b5" stroke="#aaa498" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M455 340 L520 340 L520 352 L455 352 Z" fill="#cbc4b5" stroke="#aaa498" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M400 185 L400 880" fill="none" stroke="#a09b8f" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+<circle cx="412" cy="240" r="6" fill="#e8e2d6" stroke="#aaa498" stroke-width="1"/>
+<circle cx="412" cy="330" r="6" fill="#e8e2d6" stroke="#aaa498" stroke-width="1"/>
+<circle cx="412" cy="420" r="6" fill="#e8e2d6" stroke="#aaa498" stroke-width="1"/>
+<circle cx="412" cy="510" r="6" fill="#e8e2d6" stroke="#aaa498" stroke-width="1"/>
+<circle cx="412" cy="600" r="6" fill="#e8e2d6" stroke="#aaa498" stroke-width="1"/>
+<circle cx="412" cy="690" r="6" fill="#e8e2d6" stroke="#aaa498" stroke-width="1"/>
+<circle cx="412" cy="780" r="6" fill="#e8e2d6" stroke="#aaa498" stroke-width="1"/>
+</svg>

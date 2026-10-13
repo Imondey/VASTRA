@@ -1,19 +1,14 @@
 {
     "sqltools.connections": [
         {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
+            "port": 5432,
+            "driver": "PostgreSQL",
             "name": "Vastra DB",
             "database": "vastra_db",
-            "username": "root",
-            "password": "Appleissweet12345"
+            "username": "vastra",
+            "askForPassword": true
         }
     ]
 }
