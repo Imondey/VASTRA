@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in — VASTRA</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/pages/login.js"></script>
+</head>
+<body>
+  <main id="main" class="auth-wrap">
+    <div class="auth-card" id="authCard">
+      <!-- Sign in -->
+      <div class="auth-form sign-in">
+        <form id="loginForm" novalidate>
+          <span class="eyebrow">Welcome back</span>
+          <h2>Sign in</h2>
+          <p class="sub">Access your orders, wishlist and saved addresses.</p>
+          <div class="alert" data-form-alert hidden></div>
+          <div class="field"><label for="loginEmail">Email</label><input id="loginEmail" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="loginPassword">Password</label>
+            <div class="password-field"><input id="loginPassword" name="password" type="password" autocomplete="current-password" required>
+              <button type="button" data-toggle-password>Show</button></div>
+          </div>
+          <button class="btn btn-block" type="submit">Sign in</button>
+          <p class="auth-switch-mobile">New to VASTRA? <a class="link-plain" href="#" data-show="register">Create an account</a></p>
+        </form>
+      </div>
+
+      <!-- Register -->
+      <div class="auth-form sign-up">
+        <form id="registerForm" novalidate>
+          <span class="eyebrow">Join the house</span>
+          <h2>Create account</h2>
+          <p class="sub">Enjoy faster checkout, order tracking and early access.</p>
+          <div class="alert" data-form-alert hidden></div>
+          <div class="field"><label for="regName">Full name</label><input id="regName" name="full_name" autocomplete="name" maxlength="120" required></div>
+          <div class="field"><label for="regEmail">Email</label><input id="regEmail" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="regPassword">Password</label>
+            <div class="password-field"><input id="regPassword" name="password" type="password" autocomplete="new-password" minlength="8" required>
+              <button type="button" data-toggle-password>Show</button></div>
+            <span class="hint">At least 8 characters, with letters and numbers.</span>
+          </div>
+          <button class="btn btn-block" type="submit">Create account</button>
+          <p class="auth-switch-mobile">Already have an account? <a class="link-plain" href="#" data-show="login">Sign in</a></p>
+        </form>
+      </div>
+
+      <!-- Sliding overlay (from the original design) -->
+      <div class="auth-overlay-container">
+        <div class="auth-overlay">
+          <div class="auth-overlay-panel overlay-left">
+            <div class="logo">VASTRA</div>
+            <h2>Welcome back</h2>
+            <p>To keep connected with us, sign in with your details.</p>
+            <button class="btn btn-light" type="button" data-show="login">Sign in</button>
+          </div>
+          <div class="auth-overlay-panel overlay-right">
+            <div class="logo">VASTRA</div>
+            <h2>Hello, friend</h2>
+            <p>Enter your details and start your journey with us.</p>
+            <button class="btn btn-light" type="button" data-show="register">Create account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

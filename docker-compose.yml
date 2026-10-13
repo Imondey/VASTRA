@@ -1,0 +1,35 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: vastra_db
+      POSTGRES_USER: vastra
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-vastra}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vastra -d vastra_db"]
+      interval: 5s
+      retries: 10
+
+  web:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      SECRET_KEY: ${SECRET_KEY:-dev-only-insecure-key}
+      DATABASE_URL: postgresql://vastra:${POSTGRES_PASSWORD:-vastra}@db:5432/vastra_db
+    volumes:
+      - uploads:/app/frontend/uploads
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "flask --app server init-db && flask --app server seed-db && gunicorn -w 4 -b 0.0.0.0:8000 server:app"
+
+volumes:
+  pgdata:
+  uploads:

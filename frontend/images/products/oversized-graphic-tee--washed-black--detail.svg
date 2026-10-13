@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 110 400 500" width="800" height="1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Oversized Graphic Tee in Washed Black">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe9df"/><stop offset="1" stop-color="#e2d9cb"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2b2418" flood-opacity=".18"/></filter>
+</defs>
+<rect x="-400" y="-400" width="1600" height="1800" fill="url(#bg)"/>
+<ellipse cx="400" cy="935" rx="300" ry="26" fill="#2b2418" opacity=".08"/>
+<g filter="url(#soft)">
+<path d="M310 175 C340 250 460 250 490 175 L640 240 L700 380 L610 415 L575 340 L575 860 L225 860 L225 340 L190 415 L100 380 L160 240 Z" fill="#2a2a2a" stroke="#1e1e1e" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<path d="M310 175 C340 250 460 250 490 175 L640 240 L700 380 L610 415 L575 340 L575 860 L225 860 L225 340 L190 415 L100 380 L160 240 Z" fill="url(#shade)"/>
+<path d="M235 215 C245 270 235 310 225 340" fill="none" stroke="#595959" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+<path d="M565 215 C555 270 565 310 575 340" fill="none" stroke="#595959" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+<path d="M225 838 L575 838" fill="none" stroke="#595959" stroke-width="2" stroke-linecap="round" opacity=".75" stroke-dasharray="6 6"/>
+<path d="M110 360 L195 392" fill="none" stroke="#595959" stroke-width="2" stroke-linecap="round" opacity=".75" stroke-dasharray="6 6"/>
+<path d="M690 360 L605 392" fill="none" stroke="#595959" stroke-width="2" stroke-linecap="round" opacity=".75" stroke-dasharray="6 6"/>
+<path d="M310 175 C340 250 460 250 490 175" fill="none" stroke="#595959" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+</svg>

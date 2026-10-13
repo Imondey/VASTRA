@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 50 720 900" width="800" height="1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ribbed Tank Top in Black">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f2ec"/><stop offset="1" stop-color="#e9e3d8"/></linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0.3"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".16"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2b2418" flood-opacity=".18"/></filter>
+</defs>
+<rect x="-400" y="-400" width="1600" height="1800" fill="url(#bg)"/>
+<ellipse cx="400" cy="935" rx="300" ry="26" fill="#2b2418" opacity=".08"/>
+<g filter="url(#soft)">
+<path d="M330 160 L360 160 C365 290 435 290 440 160 L470 160 C480 260 540 300 560 330 L560 860 L240 860 L240 330 C260 300 320 260 330 160 Z" fill="#151515" stroke="#0f0f0f" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+<path d="M330 160 L360 160 C365 290 435 290 440 160 L470 160 C480 260 540 300 560 330 L560 860 L240 860 L240 330 C260 300 320 260 330 160 Z" fill="url(#shade)"/>
+<path d="M360 160 C365 290 435 290 440 160" fill="none" stroke="#484848" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+<path d="M240 838 L560 838" fill="none" stroke="#484848" stroke-width="2" stroke-linecap="round" opacity=".75" stroke-dasharray="6 6"/>
+<path d="M262 330 L262 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M284 330 L284 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M306 330 L306 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M328 330 L328 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M350 330 L350 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M372 330 L372 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M394 330 L394 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M416 330 L416 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M438 330 L438 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M460 330 L460 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M482 330 L482 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M504 330 L504 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<path d="M526 330 L526 860" fill="none" stroke="#484848" stroke-width="1" stroke-linecap="round" opacity=".75"/>
+<text x="70" y="935" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="8" fill="#8a7f6e" opacity=".55">VASTRA</text>
+</svg>

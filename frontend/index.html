@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VASTRA — shop considered fashion for men, women and kids. Premium brands, our own atelier, and complimentary shipping over ₹1,999.">
+  <title>VASTRA — Maison de Mode</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/pages/home.js"></script>
+</head>
+<body>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-label="Catch the trend">
+      <div class="hero-media"><img src="images/banners/hero.jpg" alt="" fetchpriority="high"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">The Autumn / Winter Edit</span>
+          <h1>Catch the <em>Trend</em></h1>
+          <p>Shop the latest fashion across every range — tailored by the houses you love and finished by our own atelier.</p>
+          <div class="hero-cta">
+            <a class="btn btn-light" href="shop.html?gender=women">Shop Women</a>
+            <a class="btn btn-light" href="shop.html?gender=men">Shop Men</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight-message">
+      <div class="container">
+        <h2>Top Brands<span>&bull;</span>Great Deals<span>&bull;</span>Premium Quality</h2>
+      </div>
+    </section>
+
+    <!-- Promotional slider -->
+    <section class="container" aria-label="Featured promotions">
+      <div class="slider" id="slider">
+        <div class="slide active">
+          <img src="images/banners/fashion1.jpg" alt="Friends wearing casual shirts and denim">
+          <div class="slide-text">
+            <span class="eyebrow">Limited time</span>
+            <h3>Big Sale</h3>
+            <a class="btn btn-light btn-sm" href="shop.html?sale=1">Up to 50% off top brands</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="images/banners/fashion2.jpg" alt="Couple in a summer blazer and blush tee">
+          <div class="slide-text">
+            <span class="eyebrow">Just landed</span>
+            <h3>New Arrivals</h3>
+            <a class="btn btn-light btn-sm" href="shop.html?new=1">Discover fresh styles</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="images/banners/fashion3.jpg" alt="Couple in sunglasses against a blue wall">
+          <div class="slide-text">
+            <span class="eyebrow">Daily flash discounts</span>
+            <h3>Super Deals</h3>
+            <a class="btn btn-light btn-sm" href="shop.html?sort=discount">Shop the deals</a>
+          </div>
+        </div>
+        <button class="slider-arrow prev" type="button" aria-label="Previous slide" data-slide="-1"></button>
+        <button class="slider-arrow next" type="button" aria-label="Next slide" data-slide="1"></button>
+        <div class="slider-dots" role="tablist"></div>
+      </div>
+    </section>
+
+    <!-- Edits (from the original category bar) -->
+    <section class="section-tight">
+      <div class="container">
+        <div class="section-head center"><span class="eyebrow">Shop by edit</span></div>
+        <nav class="edit-chips" aria-label="Shop by edit">
+          <a href="shop.html?gender=men">Men</a><a href="shop.html?gender=women">Women</a><a href="shop.html?gender=kids">Kids</a>
+          <a href="shop.html?tag=genz">GenZ</a><a href="shop.html?tag=inclusive">Inclusive</a><a href="shop.html?tag=essentials">Essentials</a>
+          <a href="shop.html?tag=casual">Casual</a><a href="shop.html?tag=formal">Formal</a><a href="shop.html?tag=party">Party</a>
+          <a href="shop.html?tag=ethnic">Ethnic</a><a href="shop.html?tag=athleisure">Athleisure</a><a href="shop.html?tag=minimalist">Minimalist</a>
+          <a href="shop.html?tag=indie">Indie</a><a href="shop.html?tag=retro">Retro</a><a href="shop.html?tag=pale">Pale</a>
+          <a href="shop.html?tag=luxe">Luxe</a><a href="shop.html?tag=eco">Eco</a><a href="shop.html?tag=premium">Premium</a>
+          <a href="shop.html?tag=trending">Trending</a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Gender tiles -->
+    <section class="section-tight">
+      <div class="container tiles">
+        <a class="tile reveal" href="shop.html?gender=men">
+          <img src="images/products/shirt.jpg" alt="Man in a check shirt" loading="lazy">
+          <div class="tile-label"><h3>Men</h3><span class="link">Explore</span></div>
+        </a>
+        <a class="tile reveal" href="shop.html?gender=women">
+          <img src="images/banners/fashion3.jpg" alt="Woman in a blush tee and sunglasses" loading="lazy" style="object-position:42% 30%">
+          <div class="tile-label"><h3>Women</h3><span class="link">Explore</span></div>
+        </a>
+        <a class="tile reveal" href="shop.html?tag=genz">
+          <img src="images/products/hoodie.jpg" alt="Young man in a zip hoodie" loading="lazy">
+          <div class="tile-label"><h3>GenZ</h3><span class="link">Explore</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="eyebrow">Curated for you</span><h2>Featured Pieces</h2></div>
+          <a class="link" href="shop.html?featured=1">View all</a>
+        </div>
+        <div class="product-grid" id="featuredGrid"></div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section bg-paper">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">The wardrobe</span><h2>Shop by Category</h2>
+        </div>
+        <div class="category-rail" id="categoryRail"></div>
+      </div>
+    </section>
+
+    <!-- Editorial -->
+    <section class="editorial">
+      <div class="editorial-media"><img src="images/banners/fashion2.jpg" alt="Summer tailoring editorial" loading="lazy" style="object-position:25% 30%"></div>
+      <div class="editorial-copy">
+        <span class="eyebrow">The Festive Atelier</span>
+        <h2>Heritage craft, cut for now.</h2>
+        <p>Hand-embroidered chikankari, lustrous silk blends and textured Nehru jackets — a celebration wardrobe finished by artisans in Lucknow and Banaras.</p>
+        <div><a class="btn btn-light" href="shop.html?category=ethnic">Discover the edit</a></div>
+      </div>
+    </section>
+
+    <!-- New in -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="eyebrow">Just in</span><h2>New Arrivals</h2></div>
+          <a class="link" href="shop.html?new=1">Shop new in</a>
+        </div>
+        <div class="product-grid" id="newGrid"></div>
+      </div>
+    </section>
+
+    <!-- Brands -->
+    <section class="section-tight bg-paper" aria-label="Top fashion brands">
+      <div class="container">
+        <div class="section-head center"><span class="eyebrow">The labels</span><h2>Top Brands</h2></div>
+        <div class="brand-scroll" id="brandScroll"></div>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section">
+      <div class="container values">
+        <div class="value reveal"><span data-icon="truck"></span><h4>Free Shipping</h4><p>On every order above ₹1,999, delivered in 3–5 days.</p></div>
+        <div class="value reveal"><span data-icon="returns"></span><h4>15-Day Returns</h4><p>Changed your mind? Return or exchange, hassle-free.</p></div>
+        <div class="value reveal"><span data-icon="needle"></span><h4>Atelier Quality</h4><p>Fabrics and finishes inspected piece by piece.</p></div>
+        <div class="value reveal"><span data-icon="shield"></span><h4>Secure Checkout</h4><p>UPI, cards and cash on delivery — always protected.</p></div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section bg-sand newsletter">
+      <div class="container-narrow">
+        <span class="eyebrow">The VASTRA list</span>
+        <h2>Be first to the new season</h2>
+        <p>Early access to drops, private sales and styling notes. Use <strong>WELCOME10</strong> on your first order.</p>
+        <form class="inline-form" id="newsletterForm">
+          <label class="sr-only" for="newsletterEmail">Email address</label>
+          <input type="email" id="newsletterEmail" name="email" placeholder="Your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
